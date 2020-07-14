@@ -129,7 +129,6 @@ function rps(rpsChoice){
     } else if(user === 2,computer === 0){
         return('You Lose.');
     }
-
 }
 
 console.log(rps('scissors'));
@@ -189,17 +188,17 @@ function letterGrade(input){
     if(input > 90){
         return('You got an A!');
     }else if(input > 80){
-        return('You got an B.');
+        return('You got a B.');
     }else if(input > 70){
-        return('You got an C.');
+        return('You got a C.');
     }else if(input > 60){
-        return('You got an D.');
+        return('You got a D.');
     }else if(input < 60){
-        return('You got an F!');
+        return('You got a F!');
     }
 }
 
-console.log(letterGrade(59));
+console.log(letterGrade(81));
   
   
 
