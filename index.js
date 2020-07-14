@@ -2,7 +2,7 @@
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
 
 let votingAge = 18;
-let age = 39;
+let age = 38;
 
 if (age > 18){
 }
@@ -46,7 +46,7 @@ function dogYears(age){
     return(age * 7);
 }
 
-console.log(dogYears(39));
+console.log(dogYears(38));
 
 
 
