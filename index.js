@@ -215,7 +215,36 @@ console.log(letterGrade(81));
 //Take Rock, Paper, Sissors further
 //update your rock papers sissors code below to take a prompt from a user using the window object
 
+let rppsChoice = window.prompt('Do you choose rock, paper, or scissors?: ');
+alert('You chose ' + rppsChoice + ' !');
 
+function rpps(rppsChoice){
+    if(rppsChoice = 'rock'){
+        user = 0;
+    }
+    if(rppsChoice = 'paper'){
+        user = 1;
+    }
+    if(rppsChoice = 'scissors'){
+        user = 2;
+    } 
 
+    let computer = Math.floor(Math.random()*3);
 
-
+    if(user === computer){
+        console.log('You Tie...');
+    } else if(user === 0,computer === 2){
+        console.log('You Win!');
+    } else if(user === 0,computer === 1){
+        console.log('You Lose.');
+    } else if(user === 1,computer === 0){
+        console.log('You Win!');
+    } else if(user === 1,computer === 2){
+        console.log('You Lose.');
+    } else if(user === 2,computer === 1){
+        console.log('You Win!');
+    } else if(user === 2,computer === 0){
+        console.log('You Lose.');
+    }
+}
+result = rpps(rppsChoice);
